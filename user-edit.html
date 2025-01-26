@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <link rel='stylesheet' href='/style.css' />
+</head>
+
+<body>
+  <nav class="war_bar">
+    <div>
+      <a href="#" class="logo">
+        <span>Secu</span>
+      </a>
+      <small class="menu-heading">
+        <span>Dashboard</span>
+      </small>
+      <ul class="tools">
+        <li>
+          <a href="#">
+            <span class="war-outlined">
+              <box-icon name='home-alt-2' color='#ffffff'></box-icon>
+            </span>
+            <span>Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="war-outlined">
+              <box-icon name='note' color='#ffffff'></box-icon>
+            </span>
+            <span>Rules</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="war-outlined">
+              <box-icon name='game' color='#ffffff'></box-icon>
+            </span>
+            <span>Challenge</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="war-outlined">
+              <box-icon name='line-chart' color='#ffffff'></box-icon>
+            </span>
+            <span>Scoreboard</span>
+          </a>
+        </li>
+      </ul>
+      <hr>
+      <small class="menu-heading">
+        <span>Admin Panel</span>
+      </small>
+      <ul class="war-menu">
+        <li>
+          <a href="#">
+            <div>
+              <span class="war-outlined">
+                <box-icon name='cog' color='#ffffff'></box-icon>
+              </span>
+              <span>Chall Settings</span>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div>
+              <span class="war-outlined">
+                <box-icon name='user-detail' type='solid' color='#ffffff'></box-icon>
+              </span>
+              <span>Management</span>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="/import">
+            <div>
+              <span class="war-outlined">
+                <box-icon name='import' color='#ffffff'></box-icon>
+              </span>
+              <span>Import</span>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="/export">
+            <div>
+              <span class="war-outlined">
+                <box-icon name='export' color='#ffffff'></box-icon>
+              </span>
+              <span>Export</span>
+            </div>
+          </a>
+        </li>
+      </ul>
+      <div class="profile">
+        <div>
+          <h4>Dolpari</h4>
+          <small>Wargame User</small>
+        </div>
+        <span class="war-outlined">
+          <box-icon name='check-shield' color='#37E662'></box-icon>
+        </span>
+      </div>
+    </div>
+  </nav>
+  <!-- MAIN -->
+  <section class="main">
+    <div class="flex-col">
+      <h1 class="title">Admin Panel - User Edit</h1>
+      <img class="line-52" src="line.png" alt="line">
+      <div class="overlap-group3 overlap">
+        <h1 style="color: #ffffff;">User Name</h1>
+        <input type="text" name="User Name" placeholder="User Name" style="background-color:#1D1E23; color: #ffffff;"
+          class="overlap-group4"></input>
+        <h1> </h1>
+        <h1 style="color: #ffffff;">Change Password</h1>
+        <input type="text" name="New Password" placeholder="New Password"
+          style="background-color:#1D1E23; color: #ffffff;" class="overlap-group5"></input>
+        <input type="text" name="Repeat Password" placeholder="Repeat Password"
+          style="background-color:#1D1E23; color: #ffffff;" class="overlap-group6"></input>
+        <h1> </h1>
+        <button type="button"
+          style="color: #fff; background:#1D1E23; border-color: #ffffff; font-size:1.5em; border-radius:0.5em; padding:10px 40px;"
+          onclick="alert('Succed for Change Password')">Change Password</button>
+        <input type="text" name="Email" placeholder="Eamil" style="background-color:#1D1E23; color: #ffffff;"
+          class="overlap-group7"></input>
+        <span style="float:right;">
+          <h1> </h1>
+          <button type="button"
+            style="color: #fff; background:#1D1E23; border-color: #ffffff; font-size:1.5em; border-radius:0.5em; padding:10px 20px; margin-left: 1340px; "
+            onclick="alert('Succed for Save')">Save</button>
+        </span>
+        <h1 style=" margin-left:735px; position:absolute; top:180; color: #ffffff; ">Email</h1>
+
+      </div>
+    </div>
+  </section>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+
+</html>
